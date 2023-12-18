@@ -27,7 +27,6 @@
 #include <assert.h>
 #include <process.h>
 #include <processthreadsapi.h>
-#include <iostream>
 
  /*
  typedef struct _CLIENT_ID {
