@@ -305,6 +305,8 @@ extern "C" {
 #define S_ISSOCK(mode) S_ISTYPE(mode, S_IFSOCK)
 #endif /* S_ISSOCK */
 
+int fork();
+
 #ifdef __cplusplus
 }
 #endif /* __cplusplus */
